@@ -1,6 +1,5 @@
 package com.ProjetoMineda.ProjetoMineda.entity;
 
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -18,11 +17,9 @@ public class Usuario {
     @Column(name = "usr_id" )
     private Long id;
 
-    @Column(name = "usr_name")
+    @Column(name = "usr_nome") 
     private String nome;
 
     @Column(name = "usr_senha")
     private String senha;
-
-
 }
